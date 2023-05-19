@@ -18,4 +18,21 @@ let mixedTypes: [number, string, boolean];
 
 
 // ! using the spread operator to set the first two values of mixedTypes to the values in coord.
-mixedTypes = [...coord, false]
+mixedTypes = [...coord, true];
+
+// --
+
+
+// ! any type will accept any type of variable
+
+let justLikeJS: any;
+
+justLikeJS = 2;
+
+justLikeJS = "this is a string";
+
+// ! when using a void type in a function, it shows that nothing will be returned.
+
+function printToTheConsole() : void {
+    console.log('some text');
+}
