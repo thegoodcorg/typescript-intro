@@ -1,5 +1,8 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var name = "Lucas";
-var msg = "Hello ".concat(name);
-console.log(msg);
+function logName() {
+    const name = "Lucas";
+    const msg = `Hello ${name}`;
+    console.log(msg);
+}
+// ! tells typescript to treat this file as a module
+// export {};
