@@ -36,3 +36,14 @@ justLikeJS = "this is a string";
 function printToTheConsole() : void {
     console.log('some text');
 }
+
+let age = null;
+
+let personData = {
+    name: 'Tim',
+    age,
+}
+
+let personAge: number | null;
+
+personAge = personData.age;
